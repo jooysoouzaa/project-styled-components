@@ -4,6 +4,7 @@ export const GithubSecao = styled.div`
 padding: 32px 0 64px 0;
 display: flex;
 flex-wrap: wrap;
+gap: 16px;
 
 @media only screen and (max-width: 768px){
 justify-content: center;
@@ -11,7 +12,7 @@ justify-content: center;
 }
 
 img{
-height: 157px;
+height: 152px;
 
 @media only screen and (min-width: 769px) and (max-width: 885px){
 height: 129px;

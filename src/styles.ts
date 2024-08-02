@@ -6,9 +6,12 @@ const EstiloGlobal = createGlobalStyle`
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
 body{
+background-color: #0D1117;
 padding-top: 80px;
 
 @media only screen and (max-width: 768px ){
