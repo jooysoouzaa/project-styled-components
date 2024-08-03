@@ -12,10 +12,10 @@ justify-content: center;
 }
 
 img{
-height: 152px;
+height: 140px;
 
 @media only screen and (min-width: 769px) and (max-width: 885px){
-height: 129px;
+height: 114px;
 
 }
 @media only screen and (max-width: 767px){
@@ -23,12 +23,7 @@ height: 100%;
 margin: 0 auto;
 margin-bottom: 8px;
 width: 100%;
-
 }
-
-
-
-
 
 `
 

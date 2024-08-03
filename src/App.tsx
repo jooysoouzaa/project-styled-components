@@ -10,13 +10,13 @@ function App() {
     <>
       <EstiloGlobal />
 
-    <Container>
-      <Sidebar />
-      <main>
-       <Sobre />
-       <Projetos />
-      </main>
-    </Container>
+      <Container>
+        <Sidebar />
+        <main>
+          <Sobre />
+          <Projetos />
+        </main>
+      </Container>
     </>
   )
 }

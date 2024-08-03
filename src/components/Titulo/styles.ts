@@ -1,22 +1,21 @@
 import styled from 'styled-components';
-import {Props} from '.';
+import { Props } from '.';
 
-
-export const Titulo = styled.h3<Props> `
+export const Titulo = styled.h3<Props>`
   color: #ccb0ab;
-  font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '14px')};
-  font-weigth: bold;
+  font-size: ${(props) => (props.fontSize ? String(props.fontSize) + 'px' : '14px')};
+  font-weight: bold;
   margin-bottom: 16px;
 `
-export const TituloName = styled.h3<Props> `
-color: #ccb0ab;
-font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '14px')};
-font-weigth: bold;
-margin: 4px 0 16px 0;
-text-align: center;
 
-@media only screen and (max-width: 768px){
-margin: 16px 0 20px 0;
+export const TituloName = styled.h3<Props>`
+margin-bottom: 16px;
+  color: #ccb0ab;
+  font-size: ${(props) => (props.fontSize ? String(props.fontSize) + 'px' : '14px')};
+  font-weight: bold;
+  text-align: center;
+  @media only screen and (max-width: 768px){
+  margin-bottom: 4px;
+  }
 
-}
 `

@@ -12,19 +12,23 @@ export const LinkProjeto = styled.a`
   margin-right: 8px;
   color: #0D1117;
   font-size: 14px;
+  font-weight: bold;
   background-color: #ccb0ab;
   padding: 12px;
   border-radius: 4px;
+  cursor: pointer;
 `
 
 export const LinkGit = styled.a`
   display: inline-block;
   margin-top: 16px;
+  font-weight: bold;
   color: #ccb0ab;
   font-size: 14px;
   border: 1px solid #ccb0ab;
   background-color: transparent;
   padding: 12px;
   border-radius: 4px;
+  cursor: pointer;
 `
 

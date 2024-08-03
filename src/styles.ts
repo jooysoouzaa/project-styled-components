@@ -12,7 +12,7 @@ const EstiloGlobal = createGlobalStyle`
 
 body{
 background-color: #0D1117;
-padding-top: 80px;
+padding: 80px 0;
 
 @media only screen and (max-width: 768px ){
 padding-top: 16px;
@@ -27,12 +27,9 @@ max-width: 1024px;
 padding: 20px;
 margin: 0 auto;
 display: grid;
-grid-template-columns: 128px auto;
-column-gap: 56px;
+grid-template-columns: 170px auto;
+column-gap: 60px;
 
-  img{
-  max-width: 100%;
-  }
 
   @media only screen and (max-width: 768px ){
   display: block;

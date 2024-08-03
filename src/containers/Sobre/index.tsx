@@ -5,7 +5,7 @@ import { GithubSecao } from "./styles"
 const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre Mim</Titulo>
-    <Paragrafo>Sou desenvolvedora front-end apaixonada por criar experiências web interativas e envolventes. Tenho habilidades em HTML, CSS,
+    <Paragrafo tipo="secundario">Sou desenvolvedora front-end apaixonada por criar experiências web interativas e envolventes. Tenho habilidades em HTML, CSS,
       Metodologia BEM, SASS, LESS,JavaScript, Figma, WordPress, Elementor, Bootstrap, Gulp, Git e GitHub. Sou formada em Análise e
       Desenvolvimento de Sistemas pela FIAP e estou constantemente em busca de aprender e aprimorar minhas habilidades em
       desenvolvimento web, explorando novas tecnologias e seguindo as melhores práticas.</Paragrafo>
