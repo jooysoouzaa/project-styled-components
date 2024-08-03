@@ -19,12 +19,10 @@ height: 114px;
 
 }
 @media only screen and (max-width: 767px){
-height: 100%;
+height: auto;
 margin: 0 auto;
 margin-bottom: 8px;
 width: 100%;
 }
 
 `
-
-

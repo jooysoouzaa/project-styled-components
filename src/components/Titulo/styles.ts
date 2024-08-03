@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Props } from '.';
 
 export const Titulo = styled.h3<Props>`
-  color: #ccb0ab;
+  color: ${(props) => props.theme.corPrincipal};
   font-size: ${(props) => (props.fontSize ? String(props.fontSize) + 'px' : '14px')};
   font-weight: bold;
   margin-bottom: 16px;
@@ -10,7 +10,7 @@ export const Titulo = styled.h3<Props>`
 
 export const TituloName = styled.h3<Props>`
 margin-bottom: 16px;
-  color: #ccb0ab;
+  color: ${(props) => props.theme.corPrincipal};
   font-size: ${(props) => (props.fontSize ? String(props.fontSize) + 'px' : '14px')};
   font-weight: bold;
   text-align: center;

@@ -10,14 +10,41 @@ const EstiloGlobal = createGlobalStyle`
   list-style: none;
 }
 
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: ${(props) => props.theme.corDeFundo};
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background-color:  ${(props) => props.theme.corPrincipal};
+}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background-color:  ${(props) => props.theme.corPrincipal};
+}
+
+*::selection {
+    color:  ${(props) => props.theme.corDeFundo};
+    background:  ${(props) => props.theme.corPrincipal};
+    -webkit-text-fill-color:  ${(props) => props.theme.corDeFundo};
+}
+
+
 body{
-background-color: #0D1117;
+background-color:  ${(props) => props.theme.corDeFundo};
 padding: 80px 0;
 
 @media only screen and (max-width: 768px ){
 padding-top: 16px;
 }
-}
+
 `
 
 export default EstiloGlobal;
@@ -28,7 +55,7 @@ padding: 20px;
 margin: 0 auto;
 display: grid;
 grid-template-columns: 170px auto;
-column-gap: 60px;
+column-gap: 40px;
 
 
   @media only screen and (max-width: 768px ){

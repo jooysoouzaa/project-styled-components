@@ -1,3 +1,4 @@
+
 import styled from "styled-components";
 import { P } from "../../components/Paragrafo/styles";
 
@@ -15,9 +16,9 @@ export const BotaoTema = styled.button`
   margin: 0 auto;
   border-radius: 4px;
   padding: 12px;
-  color:  #0D1117;
+  color: ${(props) => props.theme.corDeFundo};
   font-size: 14px;
-  background-color: #ccb0ab;
+  background-color: ${(props) => props.theme.corPrincipal};
   border: none;
   font-weight: bold;
   cursor: pointer;
@@ -38,5 +39,4 @@ export const SidebarContainer = styled.div`
 export const UserName = styled(P)`
     text-align: center;
 `
-
 
